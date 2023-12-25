@@ -1,9 +1,14 @@
-import { TemplateWindow } from "./template.slint";
-import { MemoryGame } from "./memory_game.slint";
+// import { TemplateWindow } from "template.slint";
+// export { TemplateWindow }
 
-export { MemoryGame,TemplateWindow }
+import { MemoryGame } from "memory_game.slint";
+export { MemoryGame }
 
-// exportは一回しかできない
-// 下記コードの場合、TemplateWindowがインクルードできない
+
+// export { MemoryGame, TemplateWindow }
+// export { TemplateWindow as TemplateWindow, MemoryGame as MemoryGame }
+
+// 最後にexportされたUIのみexportされている
+// コメントアウトして実施する
 // export { TemplateWindow }
 // export { MemoryGame }

@@ -17,6 +17,18 @@ template.rs を slint::slint マクロでコード内に実装
 
 生成される構造体はエディタでのサポートは変わらない。生成されたコードを見るのが良さそう
 
+### memory_game.rs
+
+[はじめに - Slint メモリー ゲーム チュートリアル (Rust)](https://slint.dev/releases/1.3.2/docs/tutorial/rust/introduction)の実装する
+
+## 課題
+
+### 複数の Slint コンポーネントをビルドできない
+
+[Create multiple components in generated Rust and C++ code · Issue #784 · slint-ui/slint](https://github.com/slint-ui/slint/issues/784)
+
+コメントアウトで対応するかコードないマクロで作成するかしかなさそう
+
 ## 参考
 
 - [slint-ui/slint-rust-template: A template for a Rust Application using Slint. This is meant to be used with cargo-generate.](https://github.com/slint-ui/slint-rust-template)
