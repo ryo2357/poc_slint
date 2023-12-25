@@ -1,0 +1,15 @@
+component MemoryTile inherits Rectangle {
+  width: 64px;
+  height: 64px;
+  background: #3960D5;
+
+  Image {
+      source: @image-url("../assets/icons/bus.png");
+      width: parent.width;
+      height: parent.height;
+  }
+}
+
+export component MemoryGame inherits Window {
+  MemoryTile {}
+}
