@@ -1,4 +1,3 @@
-// [Polishing the Tile - Slint Memory Game Tutorial (Rust)](https://slint.dev/releases/1.3.2/docs/tutorial/rust/polishing_the_tile)
 slint::slint! {
 
     export component MainWindow inherits Window {
